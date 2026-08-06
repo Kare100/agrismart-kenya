@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "AgriSmart Kenya",
+    "slug": "agrismart-kenya",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "AgriSmart Kenya needs camera access so you can photograph crop leaves for disease diagnosis.",
+        "NSPhotoLibraryUsageDescription": "AgriSmart Kenya needs photo library access so you can choose an existing crop photo for diagnosis."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
