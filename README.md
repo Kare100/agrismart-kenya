@@ -1,5 +1,7 @@
 # AgriSmart Kenya
 
+[![Tests](https://github.com/Kare100/agrismart-kenya/actions/workflows/tests.yml/badge.svg)](https://github.com/Kare100/agrismart-kenya/actions/workflows/tests.yml)
+
 React Native (Expo) + Supabase mobile app for crop disease diagnosis, market
 prices, and weather advisories for smallholder farmers in Kenya. Built as a
 bilingual (English/Swahili), mobile-first tool for farmers who are often on
